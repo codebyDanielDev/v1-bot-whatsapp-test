@@ -17,8 +17,7 @@ const {
 } = require("@whiskeysockets/baileys");
 
 const log = (pino = require("pino"));
-const { session } = { session: "session_auth_info" };
-const { Boom } = require("@hapi/boom");
+const { session } = { session: "session_auth_info" };const { Boom } = require("@hapi/boom");
 const path = require("path");
 const fs = require("fs");
 const express = require("express");
